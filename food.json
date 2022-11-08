@@ -1,0 +1,40 @@
+{
+    "categories": [
+        {
+            "item": "Beef Biriyani",
+            "img": "https://i.pinimg.com/736x/de/fd/75/defd75690a2ba7d35c75fad83a53804e.jpg",
+            "description": "An Indian one pot meal. Beef cooked in spicy masala gravy and layered with cooked rice. A very tasty and delicious biriyani. Eventhough it takes time, definitely worth the effort!",
+            "price": "$25"
+        },
+        {
+            "item": "Chicken Biriyani",
+            "img": "https://images.food52.com/McqpjxUiMekhfX6Rsq7wuuSoz0g=/2016x1344/filters:format(webp)/d815e816-4664-472e-990b-d880be41499f--chicken-biryani-recipe.jpg",
+            "description": "An Indian one pot meal.Chicken cooked in spicy masala gravy and layered with cooked rice. A very tasty and delicious biriyani. Eventhough it takes time, definitely worth the effort!",
+            "price": "$25"
+        },
+        {
+            "item": "Classic Chesse Pizza",
+            "img": "https://static.toiimg.com/thumb/53110049.cms?width=1200&height=900",
+            "description": "Sometimes all you want at the end of the day is a simple cheese pizza. This recipe turns simple into sublime with the addition of an exceptional pizza dough, low-moisture mozzarella cheese, and an easy to make tomato sauce that hits all of the right sweet and savory notes to marry all of the flavors in this pie. A simple garnish of fresh herbs, and you've got perfection on a plate.",
+            "price": "$25"
+        },
+        {
+            "item": "Chesse Volcano Burger",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDqe7e3K8bAcP-egEQZqUZczU0Cn591aP7Dw&usqp=CAU",
+            "description": "A cheeseburger is a hamburger topped with cheese. Traditionally, the slice of cheese is placed on top of the meat patty. The cheese is usually added to the cooking hamburger patty shortly before serving, which allows the cheese to melt.",
+            "price": "$25"
+        },
+        {
+            "item": "Beef Kalavuna",
+            "img": "https://img-global.cpcdn.com/recipes/2cca2e5dd84f3d3c/1200x630cq70/photo.jpg",
+            "description": "Kala Bhuna is a famous dark and tender dish native to Chittagong prepared with shoulder pieces of beef and traditional spices; usually served during Mezban. It was originally served during the early 17th century. However, the origin of the dish is unknown",
+            "price": "$25"
+        },
+        {
+            "item": "Italian Pasta",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA4egCNDk9yOLuhbF_ehZZ8HnxwHkCNF22Fg&usqp=CAU",
+            "description": "Pasta is a staple food of traditional Italian cuisine, with the first reference dating to 1154 in Sicily.Also commonly used to refer to the variety of pasta dishes, pasta is typically a noodle made from an unleavened dough of a durum wheat flour mixed with water or eggs and formed into sheets or various shapes, then cooked by boiling or baking. As an alternative for those wanting a different taste, or who need to avoid products containing gluten, some pastas can be made using rice flour in place of wheat. Pastas may be divided into two broad categories, dried (pasta secca) and fresh (pasta fresca).",
+            "price": "$25"
+        }
+    ]
+}
