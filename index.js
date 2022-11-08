@@ -21,7 +21,12 @@ async function run() {
         const serviceCollection = client.db('My_Kitchen').collection('services');
 
 
-
+        app.get('/homeService', async (req, res) => {
+            const query = {}
+            const cursor = serviceCollection.find(query);
+            const services = await cursor.limit(3).toArray();
+            res.send(services);
+        });
 
         app.get('/services', async (req, res) => {
             const query = {}
@@ -30,13 +35,13 @@ async function run() {
             res.send(services);
         });
 
-        // app.get('/services/:id', async (req, res) => {
-        //     const id = req.params.id;
-        //     const query = { _id: ObjectId(id) };
-        //     const cursor = serviceCollection.find(query);
-        //     const service = await serviceCollection.findOne(query);
-        //     res.send(service);
-        // });
+        app.get('/services/:id', async (req, res) => {
+            const id = req.params.id;
+            const query = { _id: ObjectId(id) };
+            const cursor = serviceCollection.find(query);
+            const service = await serviceCollection.findOne(query);
+            res.send(service);
+        });
 
         // app.post('/orders', async (req, res) => {
         //     const order = req.body;
@@ -58,9 +63,9 @@ run().catch(err => console.error(err));
 
 
 app.get('/', (req, res) => {
-    res.send('genius car server is running')
+    res.send('jAWAD kitchen server is running')
 })
 
 app.listen(port, () => {
-    console.log(`Genius Car server running on ${port}`);
+    console.log(`jAWAD kitchen server running on ${port}`);
 })
